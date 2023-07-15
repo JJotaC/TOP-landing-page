@@ -1,0 +1,216 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.menu {
+    padding: 24px 0;
+    font-size: 24px;
+    color: #F9Faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo {
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 12px;
+}
+
+.menu .links ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-info {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-info h1 {
+    font-size: 62px;
+    font-weight: 900;
+    color: #F9faf8;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+.hero-info p {
+    color: #e5e7eb;
+}
+
+.cta-btn {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9faf8;
+    background-color: #3882f6;
+    padding: 12px 48px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cards {
+    padding: 120px 0;
+}
+
+.cards h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+}
+
+.cards .frame {
+    border: 6px solid #3882f6;
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.cards-wrapper {
+    margin: 0 auto;
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.cards-wrapper p {
+    text-align: center;
+    max-width: 95%;
+}
+
+.testimonial {
+    background-color: #E5e7eb;
+    padding: 120px;
+}
+
+.testimonial-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-wrapper .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimonial-wrapper .author {
+    font-weight: 900;
+    margin-top: 12px;
+    align-self: flex-end;
+    padding-right: 100px;
+}
+
+.cta-section {
+    padding: 120px 0;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    color: #F9faf8;
+    padding: 60px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.cta-section .cta-btn{
+    border: 4px solid #F9faf8;
+}
+
+.footer p {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+}
