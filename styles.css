@@ -106,10 +106,16 @@ h6 {
     border: none;
     border-radius: 8px;
 }
+
 .cta-btn:hover {
     cursor: pointer;
     background-color: #F9faf8;
     color: #3882f6;
+}
+
+.hero-img img {
+    max-width: auto;
+    max-height: 400px;
 }
 
 h1,
@@ -150,9 +156,9 @@ a {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 24px;
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.55);
--moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.55);
-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.55);
 }
 
 .cards-wrapper {
@@ -211,7 +217,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.55);
     align-items: end;
 }
 
-.cta-section .cta-btn{
+.cta-section .cta-btn {
     border: 4px solid #F9faf8;
 }
 
